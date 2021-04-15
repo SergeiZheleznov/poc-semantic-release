@@ -1,0 +1,22 @@
+{
+  "name": "poc-semantic-release",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeiZheleznov/poc-semantic-release.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeiZheleznov/poc-semantic-release/issues"
+  },
+  "homepage": "https://github.com/SergeiZheleznov/poc-semantic-release#readme",
+  "devDependencies": {
+    "semantic-release": "^17.4.2"
+  }
+}
