@@ -7,6 +7,11 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-18.04
+    env:
+      GIT_AUTHOR_NAME: Sergei Zheleznov
+      GIT_AUTHOR_EMAIL: sksdes@gmail.com
+      GIT_COMMITTER_NAME: Sergei Zh
+      GIT_COMMITTER_EMAIL: sksdes@gmail.com
     steps:
       - name: Checkout
         uses: actions/checkout@v1
